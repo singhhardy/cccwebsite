@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+
+.NFTcontainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+.NFTinner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding: 0 0px 0 45px;
+
+}
+
+.NFTtext{
+    height: 70vh;
+    width: 40%;
+    top: 0;
+    bottom: 0;
+}
+.NFTtext span{
+    color: #ffa05f;
+    font-weight: bold;
+    font-size: 38px;
+
+line-height: 30px;
+    font-family: 'Aldrich', sans-seri !important;
+}
+.NFTtext p{
+    color: #fff;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: 'Aldrich', sans-seri !important;
+    margin-top: 25px;
+
+}
+.NFTimage{
+    height: 65vh;
+    width: 40%;
+    margin-top: 40px;
+   
+    /* margin-left: 9rem !important; */
+    display: flex;
+
+    flex-direction: row;
+    justify-content: end;
+
+}
+.NFTimage img{
+    height: 80vh;
+    width: 90%;
+
+}
+
+@media (min-width:280px) and (max-width:480px) {
+    .NFTinner{
+        display: flex;
+      flex-direction: column;
+      /* justify-content: center !important; */
+      align-items: center;
+        padding-top: 50px;
+    
+    }
+
+    
+.NFTtext{
+    height: auto;
+    width: 80%;
+ 
+
+}
+.NFTimage{
+    height: auto;
+    width: 80%;
+    /* margin-top: -30px; */
+
+}
+.NFTimage img{
+    height: 40vh;
+    width: 100%;
+
+}
+.NFTcontainer{
+    height: auto;
+   
+}
+
+.NFTtext span{
+ 
+    font-size: 28px;
+
+line-height: 30px;
+  
+}
+.NFTtext p{
+    color: #fff;
+    font-size: 16px;
+ 
+    margin-top: 25px;
+
+}
+
+
+    
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+    .NFTinner{
+        display: flex;
+      flex-direction: row;
+      justify-content: space-between !important;
+      /* align-items: center; */
+        /* padding-top: -50px; */
+        margin-top: -10rem;
+        padding: 0 25px 0 25px;
+    
+    }
+
+    
+.NFTtext{
+    height: auto;
+    width: 80%;
+ 
+
+}
+.NFTimage{
+    height: auto;
+    width: 70%;
+    margin-top: 13rem;
+
+}
+.NFTimage img{
+    height: 70vh;
+    width: 100%;
+
+}
+.NFTcontainer{
+    height: auto;
+   
+}
+
+.NFTtext span{
+ 
+    font-size: 40px;
+    width:5%;
+
+line-height: 30px;
+  
+}
+.NFTtext p{
+    color: #fff;
+    font-size: 20px;
+    /* width: 50%; */
+ 
+    margin-top: 25px;
+
+}
+
+
+    
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+    .NFTinner{
+        display: flex;
+      flex-direction: row;
+      justify-content: space-between !important;
+      /* align-items: center; */
+        /* padding-top: -50px; */
+        margin-top: -10rem;
+        padding: 0 25px 0 25px;
+    
+    }
+
+    
+.NFTtext{
+    height: auto;
+    width: 80%;
+ 
+
+}
+.NFTimage{
+    height: auto;
+    width: 70%;
+    margin-top: 13rem;
+
+}
+.NFTimage img{
+    height: 70vh;
+    width: 100%;
+
+}
+.NFTcontainer{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.NFTtext span{
+ 
+    font-size: 40px;
+    width:5%;
+
+line-height: 30px;
+  
+}
+.NFTtext p{
+    color: #fff;
+    font-size: 20px;
+    /* width: 50%; */
+ 
+    margin-top: 25px;
+
+}
+
+
+    
+}
+
+
+@media (min-width:1900px) and (max-width:3000px) {
+
+
+   .NFTtext{
+       margin-top: 12rem !important;
+   }
+
+   .NFTimage img{
+    height: 85vh;
+    width: 97%;
+
+}
+}

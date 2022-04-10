@@ -1,0 +1,144 @@
+@import url('http://fonts.cdnfonts.com/css/soulcraft');
+
+.tokenomicsContainer{
+    height: 110vh;
+    width: 100%;
+background: radial-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0,0),rgba(0, 0, 0)),
+    /* background: linear-gradient(  rgba(0, 0, 0, 1),rgba(0, 0, 0,0),rgba(0, 0, 0)), */
+  
+      url("../../Assets/rewards-money.png")
+      center center no-repeat;
+
+
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+ 
+  
+}
+
+   
+.tokenHead{
+    color: #ffa05f;
+    font-family: 'Soulcraft', sans-serif;    font-size: 50px;
+    font-weight: bold;
+    /* padding: 0 20px 10px 20px; */
+}
+.tokenomicsInner{
+
+background-color: #000000;
+
+/* opacity: 0.6; */
+z-index: -1;
+}
+.tokenText{
+
+
+font-size: 23px;
+font-family: 'Soulcraft', sans-serif;color: #ffffff;
+line-height: 2.5rem;
+}
+
+
+.tekenIcon{
+
+    margin-top: 5rem;
+    margin-left: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+  
+
+
+.innerdivtextandimg{
+
+    padding: 0 20px 0 55px;
+
+}
+/* .rowstarthere{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+} */
+
+.imgecoin {
+    animation: rotation 2s infinite linear;
+    width: 55% !important;
+   
+  }
+  
+  @keyframes rotation {
+   0%{
+       transform: rotateY(0deg);
+   }
+  
+   50%{
+    transform: rotateY(180deg);
+       
+   }
+  
+   100%{
+    transform: rotateY(360deg);
+
+   }
+
+  }
+
+
+  @media (min-width:300px) and (max-width:480px){
+    .tekenIcon{
+
+        margin-top: 0rem;
+        margin-left: 0rem;
+       
+    }
+
+    .tokenomicsContainer{
+        height: auto;
+        width: 100%;
+        background-image: url();
+    
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        /* background-color: #000000 !important; */
+    
+    }
+    .tokenHead{
+   
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0 20px 10px 20px;
+        /* margin-top: -20rem; */
+    }
+
+
+
+  }
+
+  @media (min-width:1900px) and (max-width:3000px){
+
+    .tokenText{
+
+
+        font-size: 23px;
+        font-family: 'Soulcraft', sans-serif;
+                color: #ffffff;
+        line-height: 3rem;
+        }
+
+        .rowstarthere{
+            margin-top: 8rem;
+        }
+
+        .tokenomicsContainer{
+            height: auto;
+
+        }
+
+  }
