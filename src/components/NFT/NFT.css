@@ -114,10 +114,10 @@ line-height: 30px;
       justify-content: space-between !important;
       /* align-items: center; */
         /* padding-top: -50px; */
-        margin-top: -10rem;
+        margin-top: 10rem;
         padding: 0 25px 0 25px;
-    
     }
+
 
     
 .NFTtext{
@@ -139,7 +139,6 @@ line-height: 30px;
 }
 .NFTcontainer{
     height: auto;
-   
 }
 
 .NFTtext span{

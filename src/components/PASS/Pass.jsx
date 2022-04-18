@@ -11,7 +11,7 @@ function Pass() {
         <div data-aos="fade-up" id="Pass">
         <div className='PassContainer' >
             <div className=' overViewInner'> 
-            <section className='videocontainer'><video  src='PASS.mp4' loop muted autoPlay/></section>
+            <section className='videocontainer'><video  src='PASS.mp4' loop muted autoPlay play playsinline/></section>
                 <div className='overviewText'>
                     <p>
                     Crypto Car Club PASS, is the first and the most exclusive item in the CCC ecosystem! 

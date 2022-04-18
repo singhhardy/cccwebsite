@@ -11,7 +11,7 @@ function Game() {
     return (
         <div className='gameContainer' id='Game' >
             <div className='gameVideoContainer'>
-                <video src='ccc-1_trim.mp4' loop muted autoPlay className='gamevideo' />
+                <video src='ccc-1_trim.mp4' loop muted autoPlay playsinline className='gamevideo' />
 
                 <div className='bothdivbtnandtext'>
                     

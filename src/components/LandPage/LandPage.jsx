@@ -3,7 +3,7 @@ import './LandPage.css'
 function LandPage() {
     return (
         <div className='landPagevideo mt-5' id='home'>
-            <video  src='finalcrypto.mp4' loop muted autoPlay />
+            <video  src='finalcrypto.mp4' loop muted autoPlay playsinline />
             <div className='landPageText text-white'>
                 <p>
                     RACE, EARN, MOD, TRADE AND BECOME A VIP MEMBER
